@@ -1,0 +1,19 @@
+{
+  "name": "kevin-phillips-bong",
+  "version": "1.0.0",
+  "description": "slightly silly",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/dlivingston/kevin-phillips-bong.git"
+  },
+  "author": "Don Livingston",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dlivingston/kevin-phillips-bong/issues"
+  },
+  "homepage": "https://github.com/dlivingston/kevin-phillips-bong#readme"
+}
