@@ -3,12 +3,17 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 
 module.exports = {
   entry: './src/index.ts',
+  output: {
+    filename: 'index.js',
+    path: path.resolve('dist'),
+    publicPath: '/',
+  },
   plugins: [
     new HtmlWebpackPlugin({
-      title: "DL Build Kit 2021",
+      title: 'Kevin Phillips Bong',
       template: 'src/index.html',
-      filename: 'index.html'
-    })
+      filename: 'index.html',
+    }),
   ],
   module: {
     rules: [
@@ -21,9 +26,5 @@ module.exports = {
   },
   resolve: {
     extensions: ['.tsx', '.ts', '.js'],
-  },
-  output: {
-    filename: 'main.js',
-    path: path.resolve(__dirname, 'dist'),
   },
 };
