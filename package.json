@@ -1,19 +1,40 @@
 {
   "name": "kevin-phillips-bong",
   "version": "1.0.0",
-  "description": "slightly silly",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git+ssh://git@github.com/dlivingston/kevin-phillips-bong.git"
+    "url": "git+https://github.com/dlivingston/kevin-phillips-bong.git"
   },
-  "author": "Don Livingston",
-  "license": "MIT",
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "bugs": {
     "url": "https://github.com/dlivingston/kevin-phillips-bong/issues"
   },
-  "homepage": "https://github.com/dlivingston/kevin-phillips-bong#readme"
+  "homepage": "https://github.com/dlivingston/kevin-phillips-bong#readme",
+  "dependencies": {
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "react-router-dom": "^6.3.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-react": "^7.16.7",
+    "@babel/preset-typescript": "^7.16.7",
+    "babel-loader": "^8.2.5",
+    "css-loader": "^6.7.1",
+    "html-loader": "^3.1.0",
+    "sass-loader": "^12.6.0",
+    "style-loader": "^3.3.1",
+    "ts-loader": "^9.3.0",
+    "tslib": "^2.4.0",
+    "typescript": "^4.6.4",
+    "webpack": "^5.72.1",
+    "webpack-cli": "^4.9.2"
+  }
 }
